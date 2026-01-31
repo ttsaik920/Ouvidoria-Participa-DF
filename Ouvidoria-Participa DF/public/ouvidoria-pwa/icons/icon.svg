@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Background -->
+  <rect fill="#004182" width="512" height="512" rx="80"/>
+  
+  <!-- DF Text -->
+  <text x="256" y="300" font-family="Arial, Helvetica, sans-serif" font-size="180" font-weight="bold" fill="white" text-anchor="middle">DF</text>
+  
+  <!-- Ouvidoria subtitle -->
+  <text x="256" y="400" font-family="Arial, Helvetica, sans-serif" font-size="50" font-weight="normal" fill="rgba(255,255,255,0.9)" text-anchor="middle">OUVIDORIA</text>
+</svg>
