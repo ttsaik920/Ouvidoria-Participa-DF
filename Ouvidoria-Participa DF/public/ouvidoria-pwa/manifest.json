@@ -1,0 +1,105 @@
+{
+  "name": "Ouvidoria Digital - Participa DF",
+  "short_name": "Ouvidoria DF",
+  "description": "Canal oficial para denúncias, reclamações, sugestões e elogios ao Governo do Distrito Federal",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#FFFFFF",
+  "theme_color": "#004182",
+  "lang": "pt-BR",
+  "dir": "ltr",
+  "categories": ["government", "utilities"],
+  "icons": [
+    {
+      "src": "icons/icon-72x72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "icons/icon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "icons/icon-128x128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "icons/icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "icons/icon-152x152.png",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "icons/icon-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Nova Denúncia",
+      "short_name": "Denúncia",
+      "description": "Registrar uma nova denúncia",
+      "url": "./index.html?action=denuncia",
+      "icons": [{ "src": "icons/icon-96x96.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Nova Reclamação",
+      "short_name": "Reclamação",
+      "description": "Registrar uma nova reclamação",
+      "url": "./index.html?action=reclamacao",
+      "icons": [{ "src": "icons/icon-96x96.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Atendimento",
+      "short_name": "Chat",
+      "description": "Falar com o assistente virtual",
+      "url": "./index.html?page=chat",
+      "icons": [{ "src": "icons/icon-96x96.png", "sizes": "96x96" }]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "screenshots/home.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Tela inicial da Ouvidoria DF"
+    },
+    {
+      "src": "screenshots/manifestacao.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Formulário de manifestação"
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false
+}
